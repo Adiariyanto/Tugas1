@@ -1,0 +1,88 @@
+body{
+   background-color:#048853 ;
+}
+.nav-bar{
+ background-color: #35d1bb;
+}
+.nav-link{
+	font-kerning: 16px;
+}
+.nav-link.active{
+	font-weight: 700;
+}
+.active{
+	background-color: #048853;
+	color: #fff;
+}
+.button-secondary{
+	width: 100px;
+	height: 40px;
+	background-color:#048853;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	border: none;
+}
+.button-primary{
+	width: 100px;
+	height: 40px;
+	background-color: transparent;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+}
+#hero{
+	background:  url(../img/benner2.jpeg);
+	height: 85vh;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hero-tagline h2{
+	color: #fff;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 72px;
+}
+.hero-tagline p{
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 60px;
+	margin-top: 20px;
+	line-height: 30px;
+	width: 95%;
+}
+.button-primary{
+	color: #fff;
+}
+.arrow-primary{
+	width: 30px;
+	margin-left: 30px;
+}
+.button-lg-primary{
+	width: 250px;
+	height: 40px;
+	background-color:#fff;
+	color: #048853;
+	border: none;
+	font-size: 20px;
+	font-weight: 700;
+}
+.arrow{
+	width: 50px;
+	margin-left: 30px;
+}
+section{
+	padding: 0px 0;
+	background-color:#048853  ;
+}
+footer{
+	padding: 20px 0;
+	background-color:#1E9445 ;
+	color: #fff;
+	text-align: center;
+}
