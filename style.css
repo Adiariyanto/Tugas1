@@ -1,88 +1,235 @@
-body{
-   background-color:#048853 ;
+:root{
+    /* color */
+    --primarycolor :#202939;
+    --secondarycolor: #DDC199;
+
+    /* foot */
+    --mainFont: 'open sans', sans-serif;
+    --headingFont: 'merriweather' serif;
 }
-.nav-bar{
- background-color: #35d1bb;
+{
+    box-sizing: border-box !important;
+     text-decoration: none !important;
+}
+
+body{
+    font-family: var(--mainFont);
+}
+.heading{
+    font-family: var(--headingFont);
+    font-size: 30px;
+    font-weight: 700;
+}
+.subheading{
+    font-weight: 300;
+}
+.section-margin{
+    margin-top: 100px;
+}
+
+/* navbar */
+.navbar-brand{
+    font-family: var(--headingFont);
+    font-weight: 900;
+}
+.navbar{
+    background-color: var(--primarycolor) !important;
+}
+.navbar-brand span{
+    color: var(--secondarycolor);
 }
 .nav-link{
-	font-kerning: 16px;
+    font-family: var(--headingFont);
 }
 .nav-link.active{
-	font-weight: 700;
+    font-size: 700;
+    color: var(--secondarycolor) !important;
 }
-.active{
-	background-color: #048853;
-	color: #fff;
+.icon-home i{
+    font-size: 1.8rem;
+    color: var(--secondarycolor);
 }
-.button-secondary{
-	width: 100px;
-	height: 40px;
-	background-color:#048853;
-	color: #fff;
-	font-size: 16px;
-	font-weight: 700;
-	border: none;
+
+/* Home */
+.home{
+    background-color: var(--primarycolor);
+    height: 650px;
+    padding-top: 10rem;
 }
-.button-primary{
-	width: 100px;
-	height: 40px;
-	background-color: transparent;
-	color: #fff;
-	font-size: 16px;
-	font-weight: 600;
-	border: none;
+.home .heading{
+    color: var(--secondarycolor);
 }
-#hero{
-	background:  url(../img/benner2.jpeg);
-	height: 85vh;
-	width: 100%;
-	background-size: cover;
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.btn-home .btn-buy{
+    background-color: var(--secondarycolor);
+    font-family: var(--headingFont);
+    font-weight: 700;
 }
-.hero-tagline h2{
-	color: #fff;
-	font-weight: 700;
-	font-size: 50px;
-	line-height: 72px;
+.btn-home .btn-learn{
+    border: 2px solid var(--secondarycolor);
+    color: var(--secondarycolor);
+    font-family: var(--headingFont);
+    font-weight: 700;
 }
-.hero-tagline p{
-	color: #fff;
-	font-size: 16px;
-	margin-bottom: 60px;
-	margin-top: 20px;
-	line-height: 30px;
-	width: 95%;
+
+/* Service */
+.card-service{
+   background-color: var(--primarycolor);
+   color: #fff;
 }
-.button-primary{
-	color: #fff;
+.card-service .btn-service{
+  border: 2px solid var(--secondarycolor);
+   color: var(--secondarycolor);
+   font-family: var(--headingFont);
+   font-weight: 700;
 }
-.arrow-primary{
-	width: 30px;
-	margin-left: 30px;
+.card-service .btn-service:hover{
+   background-color: var(--secondarycolor);
+   color: var(--primarycolor);
 }
-.button-lg-primary{
-	width: 250px;
-	height: 40px;
-	background-color:#fff;
-	color: #048853;
-	border: none;
-	font-size: 20px;
-	font-weight: 700;
+/* Banner1 */
+.banner1{
+    height: 360px;
 }
-.arrow{
-	width: 50px;
-	margin-left: 30px;
+.banner1 .container{
+   background-color: var(--primarycolor);
+   overflow-y: hidden;
 }
-section{
-	padding: 0px 0;
-	background-color:#048853  ;
+.banner1 .btn-banner1{
+   background-color: var(--secondarycolor);
 }
-footer{
-	padding: 20px 0;
-	background-color:#1E9445 ;
-	color: #fff;
-	text-align: center;
+.banner1 img{
+   bottom: -60%;
+}
+
+/* product */
+.product .populer h3{
+    font-size: 22px;
+}
+.populer i{
+    font-size: 2.5rem;
+    color: var(--secondarycolor);
+}
+.product-populer .card-product{
+    width: 280px;
+}
+.product-populer .img-box{
+    border: 2px solid var(--primarycolor);
+}
+.detail-product .label{
+    background-color: var(--primarycolor);
+    width: 80px;
+    color: #fff;
+}
+.detail-product a{
+    border: 2px solid var(--secondarycolor);
+    color: var(--secondarycolor);
+    font-size: 1.8rem;
+}
+.detail-product a:hover{
+    background-color: var(--secondarycolor);
+    color: var(--primarycolor);
+}
+
+.new-product .img-box{
+    background-color: var(--primarycolor);
+}
+.new-product .card-title{
+    font-family: var(--headingFont);
+    font-weight: 700;
+}
+.price-wrapper i{
+    font-size: 1.7rem;
+}
+.price-wrapper a{
+    border: 2px solid var(--secondarycolor);
+    color: var(--primarycolor);
+}
+.price-wrapper a:hover{
+    background-color: var(--secondarycolor);
+    color: var(--primarycolor);
+}
+.btn-load a{
+    background-color: var(--secondarycolor);
+    color: #fff;
+}
+.new-card{
+    display: contents;
+}
+
+/* Banner 2*/
+.banner2 .banner-wrapper{
+    background-color: var(--primarycolor);
+}
+.banner2 .price{
+    width: 40%;
+}
+.banner2 .price p{
+    font-size: 26px;
+}
+.banner2 .price .normal{
+    text-decoration: line-through !important;
+}
+.banner2 .price .promo{
+    font-family: var(--headingFont);
+    font-weight: 800;
+    color: var(--secondarycolor);
+}
+
+/* Blog */
+.blog .card-title{
+    font-family: var(--headingFont);
+    font-weight: 700;
+}
+.blog .btn{
+    background-color: var(--secondarycolor);
+}
+
+@media screen and (min-width: 768px) {
+
+    .home{
+        padding-top: 14rem;
+    }
+    .home .heading{
+        font-size: 36px;
+    }
+    .banner1 img{
+       width: 50%;
+    }
+    .populer i{
+        font-size: 2.9rem;
+    }
+    .banner2 .price{
+        width: 70%;
+    }
+    .blog, .banner2{
+        margin-top: 100px !important;
+    }
+
+}
+
+@media screen and (min-width:  992px) {
+    .section-margin{
+        margin-top: 200px !important;
+    }
+    .home .content-left{
+        padding-bottom: 40px;
+    }
+    .home .heading{
+        font-size: 46px;
+    }
+    .home .subheading{
+        font-size: 20px;
+    }
+    .home .container, .home .row{
+        height: 100%;
+    }
+      .banner1 img{
+       top: 150%;
+     }
+     .banner1{
+        height: 380px;
+    }
+     .banner1 .container{
+       padding: 0 4rem;
+    }
 }

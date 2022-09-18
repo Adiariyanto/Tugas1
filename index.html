@@ -1,95 +1,878 @@
-<head><!doctype html>
-  <html lang="en">
-
+<!doctype html>
+<html lang="en">
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- font awesome-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- Googel Font -->
+    <!-- Icon Title bar -->
+    <link rel="icon" type="text/css" href="img/search.png">
+    
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 
-    <!-- My Style -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- Icon Title bar -->
-    <link rel="icon" type="text/css" href="img/google.png">
+     <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
 
-    <title>SMK HASAN KAFRAWI</title>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
-    <a class="navbar-brand" href="#">
-    <img src="img/logo icon smk.jpg" alt="" width="25" class="d-inline-block align-text-top me-3">
-    SMK HASAN KAFRAWI</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto ">
-        <li class="nav-item mx-2">
-          <a class="nav-link active" aria-current="page" href="file:///C:/xampp/htdocs/Tugas/index.html">BERANDA</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="file:///C:/xampp/htdocs/Tugas/index%20informasi.html">INFORMASI</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="file:///C:/xampp/htdocs/Tugas/indexlogin.html">LOGIN</a>
-      </ul>
-      <div>
-         <button class="button-primary">DAFTAR</button>
-        <a href="file:///C:/xampp/htdocs/Tugas/fromdaftar.html">
-           <img src="img/right-arrow.png"class="arrow-primary">
-        </a>
-        <button class="button-secondary">MASUK</button>
-        <a href="file:///C:/xampp/htdocs/Tugas/from%20masuk.html">
-           <img src="img/right-arrow.png"class="arrow-primary">
-        </a>
 
-    </div>
-    </nav>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
-<!-- hero section -->
-<section id="hero">
-  <div class="container h-100">
-    <div class="row h-100">
-      <div class="col-md-6 hero-tagline my-auto">
-        <h2>SELAMAT DATANG DI WEBSITE</h2>
-        <p> <span class="fw-bold">smk hasan kafrawi</span> adalah sebagai sekolah menengah kejuruan yang mempunyai dua macam bidang pendidikan kejuruan yaitu rekayasa perangkat lunak dan multimedia</p>
+    <title>MYFURNITURE</title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3">
+            <div class="container">
+              <a class="navbar-brand" href="#"><span>MY</span>FURNITURE</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav me-5">
+                  <a class="nav-link me-4 active" href="#home">Home</a>
+                  <a class="nav-link me-4" href="#service">Services</a>
+                  <a class="nav-link me-4" href="#product">Product</a>
+                  <a class="nav-link me-4" href="#blog">Blog</a>
+                  <a class="nav-link" href="#">Contact us</a>
+                </div>
+                <div class="icon-home mt-4 mt-lg-0">
+                    <a href="#"><i class="bx bx-user"></i></a>
+                    <a href="#"><i class="bx bx-shopping-bag ms-3"></i></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
 
-        <button class="button-lg-primary ">LOGIN</button>
-       <a href="file:///C:/xampp/htdocs/Tugas/indexlogin.html">
-        <img src="img/right-arrow.png"class="arrow">
-      </a>
-      </div>
-    </div>
-  </div>
-  </section>
-    
-  <!-- footer -->
-  <footer>
-    <div class="container">
-      <small> copyright &copy; 2022 - SMK Hasan Kafrawi Mayong, All Rights  Reserved.</small>
-      
-    </div>
-  </footer>
-    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-lg-end content-left" data-aos="fade-up">
+                    <h1 class="heading">Make Your Interior More Modern and Minimalist</h1>
+                    <p class="subheding text-white">There are several product variants that you cann local and foreign brands</p>
+                </div>
+                <div class="btn-home mt-5">
+                    <a href="#" class="btn btn-buy  py-2 px-3 px-lg-4 py-lg-3">Buy Now</a>
+                    <a href="#" class="btn btn-learn ms-4 py-2 px-3 px-lg-4 py-lg-3">Learn More</a>
+                </div>
+                <div class="btn-img mt-5 d-none d-md-block">
+                     <img src="img/home-img.png" class="ms-4 py-2" width="75%" height="65%%" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service -->
+    <section class="service section-margin" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="heading">Our Services</h1>
+                    <p class="subheading">We provide quality and comfortable interior fittings</p>
+                </div>
+            </div>
+            <div class="row mt-5 ">
+                <div class="col-lg-4 my-lg-0">
+                    <div class="card-service my-3 rounded-3 d-flex justify-content-between align-items-center p-4"
+                        data-aos="flip-left">
+                        <div class="detail">
+                            <p class="label">Minimal Design</p>
+                            <h3 class="heading">Classic
+                                Softchair</h3>
+
+                            <a href="#" class="btn-service btn mt-4"><i class='bx bx-shopping-bag'></i> Shop</a>
+
+                        </div>
+                        <div class="img-service">
+                            <img src="img/service1.png" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-lg-0">
+                    <div class="card-service my-3 rounded-3 d-flex justify-content-between align-items-center p-4"
+                        data-aos="flip-left" data-aos-delay="300">
+                        <div class="detail">
+                            <p class="label">Minimal Design</p>
+                            <h3 class="heading">Classic
+                                Softchair</h3>
+
+                            <a href="#" class="btn-service btn mt-4"><i class='bx bx-shopping-bag'></i> Shop</a>
+
+                        </div>
+                        <div class="img-service">
+                            <img src="img/service16.png" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-lg-0">
+                    <div class="card-service my-3 rounded-3 d-flex justify-content-between align-items-center p-4"
+                        data-aos="flip-left" data-aos-delay="600">
+                        <div class="detail">
+                            <p class="label">Minimal Design</p>
+                            <h3 class="heading">Classic
+                                Softchair</h3>
+
+                            <a href="#" class="btn-service btn mt-4"><i class='bx bx-shopping-bag'></i> Shop</a>
+
+                        </div>
+                        <div class="img-service">
+                            <img src="img/service3.png" width="100%" height="100%" alt="">
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 my-lg-0">
+                    <div class="card-service my-3 rounded-3 d-flex justify-content-between align-items-center p-4"
+                        data-aos="flip-left" data-aos-delay="600">
+                        <div class="detail">
+                            <p class="label">Minimal Design</p>
+                            <h3 class="heading">Classic
+                                Softchair</h3>
+
+                            <a href="#" class="btn-service btn mt-4"><i class='bx bx-shopping-bag'></i> Shop</a>
+
+                        </div>
+                        <div class="img-service">
+                            <img src="img/service4.png" width="80%" height="80%" alt="">
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 my-lg-0">
+                    <div class="card-service my-3 rounded-3 d-flex justify-content-between align-items-center p-4"
+                        data-aos="flip-left" data-aos-delay="600">
+                        <div class="detail">
+                            <p class="label">Minimal Design</p>
+                            <h3 class="heading">Classic
+                                Softchair</h3>
+
+                            <a href="#" class="btn-service btn mt-4"><i class='bx bx-shopping-bag'></i> Shop</a>
+
+                        </div>
+                        <div class="img-service">
+                            <img src="img/service5.png" width="80%" height="80%" alt="">
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 my-lg-0">
+                    <div class="card-service my-3 rounded-3 d-flex justify-content-between align-items-center p-4"
+                        data-aos="flip-left" data-aos-delay="600">
+                        <div class="detail">
+                            <p class="label">Minimal Design</p>
+                            <h3 class="heading">Classic
+                                Softchair</h3>
+
+                            <a href="#" class="btn-service btn mt-4"><i class='bx bx-shopping-bag'></i> Shop</a>
+
+                        </div>
+                        <div class="img-service">
+                            <img src="img/service8.png" width="80%" height="80%" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner1 -->
+    <section class="banner1 section-margin px-2">
+        <div class="container rounded-3 pt-5 pt-lg-0 h-100">
+            <div class="row text-white h-100 d-lg-flex align-items-lg-center">
+                <div class="col-lg-6">
+                    <p class="label">Black Friday</p>
+                    <h3 class="heading">Sale Up To <span>75%</span> Off</h3>
+                    <a href="#" class="btn btn-banner1 mt-4">Shop Now</a>
+                </div>
+                <div class="col-lg-6 position-relative">
+                    <img src="img/home5-img.png" class="img-fluid position-absolute end-0" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Product -->
+    <section class="product section-margin" id="product">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h1 class="heading">Our Product</h1>
+                    <p class="subheading">Available for all your needs</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col populer d-lg-flex justify-content-lg-between">
+                    <h3 class="heading">Populer Categories</h3>
+                    <div class="toggle-slider d-lg-block d-flex justify-content-end">
+                        <i class='bx bxs-chevron-left-circle'></i>
+                        <i class='bx bxs-chevron-right-circle'></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 product-populer">
+                <div class="col">
+
+                    <!-- Swiper -->
+                    <div class="swiper mySwiperPopuler">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide card-product">
+                                <div
+                                    class="img-box rounded-3 d-flex justify-content-center align-items-center py-4 px-2">
+                                    <img src="img/service1.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="detail-product mt-3 d-flex justify-content-between">
+                                    <div class="info">
+                                        <p class="label text-center py-2">Chair</p>
+                                        <p>30 product</p>
+                                    </div>
+                                    <div class="btn-card">
+                                        <a href="#" class="btn"><i class='bx bx-shopping-bag'></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide card-product">
+                                <div
+                                    class="img-box rounded-3 d-flex justify-content-center align-items-center py-4 px-2">
+                                    <img src="img/service2.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="detail-product mt-3 d-flex justify-content-between">
+                                    <div class="info">
+                                        <p class="label text-center py-2">Chair</p>
+                                        <p>30 product</p>
+                                    </div>
+                                    <div class="btn-card">
+                                        <a href="#" class="btn"><i class='bx bx-shopping-bag'></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide card-product">
+                                <div
+                                    class="img-box rounded-3 d-flex justify-content-center align-items-center py-4 px-2">
+                                    <img src="img/service3.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="detail-product mt-3 d-flex justify-content-between">
+                                    <div class="info">
+                                        <p class="label text-center py-2">Chair</p>
+                                        <p>30 product</p>
+                                    </div>
+                                    <div class="btn-card">
+                                        <a href="#" class="btn"><i class='bx bx-shopping-bag'></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide card-product">
+                                <div
+                                    class="img-box rounded-3 d-flex justify-content-center align-items-center py-4 px-2">
+                                    <img src="img/service4.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="detail-product mt-3 d-flex justify-content-between">
+                                    <div class="info">
+                                        <p class="label text-center py-2">Chair</p>
+                                        <p>30 product</p>
+                                    </div>
+                                    <div class="btn-card">
+                                        <a href="#" class="btn"><i class='bx bx-shopping-bag'></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide card-product">
+                                <div
+                                    class="img-box rounded-3 d-flex justify-content-center align-items-center py-4 px-2">
+                                    <img src="img/service5.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="detail-product mt-3 d-flex justify-content-between">
+                                    <div class="info">
+                                        <p class="label text-center py-2">Chair</p>
+                                        <p>30 product</p>
+                                    </div>
+                                    <div class="btn-card">
+                                        <a href="#" class="btn"><i class='bx bx-shopping-bag'></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide card-product">
+                                <div
+                                    class="img-box rounded-3 d-flex justify-content-center align-items-center py-4 px-2">
+                                    <img src="img/service6.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="detail-product mt-3 d-flex justify-content-between">
+                                    <div class="info">
+                                        <p class="label text-center py-2">Chair</p>
+                                        <p>30 product</p>
+                                    </div>
+                                    <div class="btn-card">
+                                        <a href="#" class="btn"><i class='bx bx-shopping-bag'></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide card-product">
+                                <div
+                                    class="img-box rounded-3 d-flex justify-content-center align-items-center py-4 px-2">
+                                    <img src="img/service7.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="detail-product mt-3 d-flex justify-content-between">
+                                    <div class="info">
+                                        <p class="label text-center py-2">Chair</p>
+                                        <p>30 product</p>
+                                    </div>
+                                    <div class="btn-card">
+                                        <a href="#" class="btn"><i class='bx bx-shopping-bag'></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide card-product">
+                                <div
+                                    class="img-box rounded-3 d-flex justify-content-center align-items-center py-4 px-2">
+                                    <img src="img/service8.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="detail-product mt-3 d-flex justify-content-between">
+                                    <div class="info">
+                                        <p class="label text-center py-2">Chair</p>
+                                        <p>30 product</p>
+                                    </div>
+                                    <div class="btn-card">
+                                        <a href="#" class="btn"><i class='bx bx-shopping-bag'></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide card-product">
+                                <div
+                                    class="img-box rounded-3 d-flex justify-content-center align-items-center py-4 px-2">
+                                    <img src="img/service9.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="detail-product mt-3 d-flex justify-content-between">
+                                    <div class="info">
+                                        <p class="label text-center py-2">Chair</p>
+                                        <p>30 product</p>
+                                    </div>
+                                    <div class="btn-card">
+                                        <a href="#" class="btn"><i class='bx bx-shopping-bag'></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <h1 class="heading">New Arrival Product</h1>
+                </div>
+            </div>
+            <div class="row  new-product mt-5">
+                <div class="col-lg-3 col-md-6 my-3">
+                   <div class="card m-auto new-card" style="width: 17rem;">
+                       <div class="img-box d-flex justify-content-center align-items-center py-3">
+                            <img src="img/service3.png" width="150" class="img-fluid " alt="...">
+                        </div>
+                        <div class="card-body position-relative">
+                            <h5 class="card-title">Chair Minimalist</h5>
+                            <div class="rate d-flex">
+                                <div class="star">
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                </div>
+                                <p>(22k)</p>
+                            </div>
+                            <div class="price-wrapper d-flex justify-content-between">
+                                <h3 class="price">$250.00</h3>
+                                <a href="#"
+                                    class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i
+                                        class='bx bx-shopping-bag'></i></a>
+                            </div>
+
+                        </div>
+                   </div>
+                </div>
+                 <div class="col-lg-3 col-md-6 my-3">
+                   <div class="card m-auto new-card" style="width: 17rem;">
+                       <div class="img-box d-flex justify-content-center align-items-center py-3">
+                            <img src="img/service2.png" width="150" class="img-fluid " alt="...">
+                        </div>
+                        <div class="card-body position-relative">
+                            <h5 class="card-title">Chair Minimalist</h5>
+                            <div class="rate d-flex">
+                                <div class="star">
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                </div>
+                                <p>(24k)</p>
+                            </div>
+                            <div class="price-wrapper d-flex justify-content-between">
+                                <h3 class="price">$300.00</h3>
+                                <a href="#"
+                                    class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i
+                                        class='bx bx-shopping-bag'></i></a>
+                            </div>
+
+                        </div>
+                   </div>
+                </div>
+                 <div class="col-lg-3 col-md-6 my-3">
+                   <div class="card m-auto new-card" style="width: 17rem;">
+                       <div class="img-box d-flex justify-content-center align-items-center py-3">
+                            <img src="img/service10.png" width="150" class="img-fluid " alt="...">
+                        </div>
+                        <div class="card-body position-relative">
+                            <h5 class="card-title">Chair Minimalist</h5>
+                            <div class="rate d-flex">
+                                <div class="star">
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                </div>
+                                <p>(12k)</p>
+                            </div>
+                            <div class="price-wrapper d-flex justify-content-between">
+                                <h3 class="price">$34 0.00</h3>
+                                <a href="#"
+                                    class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i
+                                        class='bx bx-shopping-bag'></i></a>
+                            </div>
+
+                        </div>
+                   </div>
+                </div>
+                 <div class="col-lg-3 col-md-6 my-3">
+                   <div class="card m-auto new-card" style="width: 17rem;">
+                       <div class="img-box d-flex justify-content-center align-items-center py-3">
+                            <img src="img/service11.png" width="150" class="img-fluid " alt="...">
+                        </div>
+                        <div class="card-body position-relative">
+                            <h5 class="card-title">Chair Minimalist</h5>
+                            <div class="rate d-flex">
+                                <div class="star">
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                </div>
+                                <p>(12k)</p>
+                            </div>
+                            <div class="price-wrapper d-flex justify-content-between">
+                                <h3 class="price">$350.00</h3>
+                                <a href="#"
+                                    class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i
+                                        class='bx bx-shopping-bag'></i></a>
+                            </div>
+
+                        </div>
+                   </div>
+                </div>
+                 <div class="col-lg-3 col-md-6 my-3">
+                   <div class="card m-auto new-card" style="width: 17rem;">
+                       <div class="img-box d-flex justify-content-center align-items-center py-3">
+                            <img src="img/service4.png" width="150" class="img-fluid " alt="...">
+                        </div>
+                        <div class="card-body position-relative">
+                            <h5 class="card-title">Chair Minimalist</h5>
+                            <div class="rate d-flex">
+                                <div class="star">
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                </div>
+                                <p>(20k)</p>
+                            </div>
+                            <div class="price-wrapper d-flex justify-content-between">
+                                <h3 class="price">$400.00</h3>
+                                <a href="#"
+                                    class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i
+                                        class='bx bx-shopping-bag'></i></a>
+                            </div>
+
+                        </div>
+                   </div>
+                </div>
+                 <div class="col-lg-3 col-md-6 my-3">
+                   <div class="card m-auto new-card" style="width: 17rem;">
+                       <div class="img-box d-flex justify-content-center align-items-center py-3">
+                            <img src="img/service12.png" width="150" class="img-fluid " alt="...">
+                        </div>
+                        <div class="card-body position-relative">
+                            <h5 class="card-title">Chair Minimalist</h5>
+                            <div class="rate d-flex">
+                                <div class="star">
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                </div>
+                                <p>(18k)</p>
+                            </div>
+                            <div class="price-wrapper d-flex justify-content-between">
+                                <h3 class="price">$440.00</h3>
+                                <a href="#"
+                                    class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i
+                                        class='bx bx-shopping-bag'></i></a>
+                            </div>
+
+                        </div>
+                   </div>
+                </div>
+                 <div class="col-lg-3 col-md-6 my-3">
+                   <div class="card m-auto new-card" style="width: 17rem;">
+                       <div class="img-box d-flex justify-content-center align-items-center py-3">
+                            <img src="img/service13.png" width="150" class="img-fluid " alt="...">
+                        </div>
+                        <div class="card-body position-relative">
+                            <h5 class="card-title">Chair Minimalist</h5>
+                            <div class="rate d-flex">
+                                <div class="star">
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                </div>
+                                <p>(16k)</p>
+                            </div>
+                            <div class="price-wrapper d-flex justify-content-between">
+                                <h3 class="price">$460.00</h3>
+                                <a href="#"
+                                    class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i
+                                        class='bx bx-shopping-bag'></i></a>
+                            </div>
+
+                        </div>
+                   </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-3">
+                   <div class="card m-auto new-card" style="width: 17rem;">
+                       <div class="img-box d-flex justify-content-center align-items-center py-3">
+                            <img src="img/service14.png" width="150" class="img-fluid " alt="...">
+                        </div>
+                        <div class="card-body position-relative">
+                            <h5 class="card-title">Chair Minimalist</h5>
+                            <div class="rate d-flex">
+                                <div class="star">
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                    <i class='bx bxs-star text-warning'></i>
+                                </div>
+                                <p>(14k)</p>
+                            </div>
+                            <div class="price-wrapper d-flex justify-content-between">
+                                <h3 class="price">$500.00</h3>
+                                <a href="#"
+                                    class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i
+                                        class='bx bx-shopping-bag'></i></a>
+                            </div>
+
+                        </div>
+                   </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card new-card">
+                        <p>----------Tidak Ada Produk----------</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="btn-load text-center mt-4">
+                <a href="" class="btn-load-more">Load More</a>
+            </div>
+
+        </div>
+
+        <!-- banner 2 -->
+        <div class="banner2 mt-5 section-margin">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 text-white">
+                         <div class="banner-wrapper rounded-3 my-2 py-4 px-3 d-flex justify-content-between align-items-center">
+                            <div class="content-left">
+                                <p class="label">Hot Deal</p>
+                                <h1 class="heading">Sofa Premium
+                                    comfort</h1>
+                                <div class="price d-flex justify-content-between align-items-center mt-4">
+                                    <p class="normal">$700</p>
+                                    <p class="promo">$500</p>
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <img src="img/service9.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-6 text-white mt-3 mt-lg-0">
+                         <div class="banner-wrapper rounded-3 my-2 py-4 px-3 d-flex justify-content-between align-items-center">
+                            <div class="content-left">
+                                <p class="label">Hot Deal</p>
+                                <h1 class="heading">Sofa Premium
+                                    comfort</h1>
+                                <div class="price d-flex justify-content-between align-items-center mt-4">
+                                    <p class="normal">$700</p>
+                                    <p class="promo">$500</p>
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <img src="img/service9.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-6 text-white mt-3 mt-lg-0">
+                         <div class="banner-wrapper rounded-3 my-2 py-4 px-3 d-flex justify-content-between align-items-center">
+                            <div class="content-left">
+                                <p class="label">Hot Deal</p>
+                                <h1 class="heading">Sofa Premium
+                                    comfort</h1>
+                                <div class="price d-flex justify-content-between align-items-center mt-4">
+                                    <p class="normal">$700</p>
+                                    <p class="promo">$500</p>
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <img src="img/service16.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-6 text-white mt-3 mt-lg-0">
+                         <div class="banner-wrapper rounded-3 my-2 py-4 px-3 d-flex justify-content-between align-items-center">
+                            <div class="content-left">
+                                <p class="label">Hot Deal</p>
+                                <h1 class="heading">Sofa Premium
+                                    comfort</h1>
+                                <div class="price d-flex justify-content-between align-items-center mt-4">
+                                    <p class="normal">$700</p>
+                                    <p class="promo">$500</p>
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <img src="img/service16.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Blog -->
+    <section class="blog mt-5 mt-5 section-margin" id="blog">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h1 class="heading">Latest Blog</h1>
+                    <p class="subheading">We provide a variety of interesting information about the interior</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    
+
+                <!-- Swiper -->
+                <div class="swiper mySwiperBlog py-5">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide card" style="width: 18rem;">
+                         <img src="img/blog.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">How To Make A Room
+                                        Look Neat</h5>
+                                    <p class="date">17 Sep 2022</p>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn">Read more</a>
+                                </div>
+                     </div>
+                      <div class="swiper-slide card" style="width: 18rem;">
+                         <img src="img/blog1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">How To Make A Room
+                                        Look Neat</h5>
+                                    <p class="date">17 Sep 2022</p>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn">Read more</a>
+                                </div>
+                     </div>
+                      <div class="swiper-slide card" style="width: 18rem;">
+                         <img src="img/blog2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">How To Make A Room
+                                        Look Neat</h5>
+                                    <p class="date">17 Sep 2022</p>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn">Read more</a>
+                                </div>
+                     </div>
+                      <div class="swiper-slide card" style="width: 18rem;">
+                         <img src="img/blog3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">How To Make A Room
+                                        Look Neat</h5>
+                                    <p class="date">17 Sep 2022</p>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn">Read more</a>
+                                </div>
+                     </div>
+                      <div class="swiper-slide card" style="width: 18rem;">
+                         <img src="img/blog.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">How To Make A Room
+                                        Look Neat</h5>
+                                    <p class="date">17 Sep 2022</p>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn">Read more</a>
+                                </div>
+                     </div>
+                      <div class="swiper-slide card" style="width: 18rem;">
+                         <img src="img/blog1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">How To Make A Room
+                                        Look Neat</h5>
+                                    <p class="date">17 Sep 2022</p>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn">Read more</a>
+                                </div>
+                     </div>
+                      <div class="swiper-slide card" style="width: 18rem;">
+                         <img src="img/blog2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">How To Make A Room
+                                        Look Neat</h5>
+                                    <p class="date">17 Sep 2022</p>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn">Read more</a>
+                                </div>
+                     </div>
+                      <div class="swiper-slide card" style="width: 18rem;">
+                         <img src="img/blog3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">How To Make A Room
+                                        Look Neat</h5>
+                                    <p class="date">17 Sep 2022</p>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn">Read more</a>
+                                </div>
+                     </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+
+      var swiper = new Swiper(".mySwiperPopuler", {
+    grabCursor: true,
+    spaceBetween: 20,
+    centeredSlides: false,
+    slidesPerView: "auto",
+    navigation: {
+        nextEl: ".bxs-chevron-right-circle",
+        prevEl: ".bxs-chevron-left-circle",
+    },
+     pagination: {
+          el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+});
+
+     var swiper = new Swiper(".mySwiperBlog", {
+        slidesPerView: "auto",
+        centeredSlides: false,
+        spaceBetween: 20,
+        grabCursor: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+         autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+      });
+    </script>
+
+    <script>
+        $(() => {
+            $('.new-card').slice(0, 4).show()
+            $('.load-more').click(function (e) {
+                e.preventDefault()
+                $('.new-card:hidden').slice(0, 4).slideDown()
+            })
+})
+
+       $(document).ready(function () {
+            $('.nav-link').click(function () {
+                $('.nav-link').removeClass('active')
+                $(this).addClass('active')
+    }) 
+})
+    </script>
+
+     <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF " crossorigin="anonymous"></script>
-    -->
+     <!-- Custom Js -->
+    <script src="js/script.js"></script>
+
   </body>
 </html>
